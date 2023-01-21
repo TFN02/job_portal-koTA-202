@@ -1,0 +1,11 @@
+edit file .env.example jadi .env
+rubah db nya jadi db_jobportal (di php my admin juga bikin, samain namanya)
+composer install
+npm install
+php artisan migrate (ngebuat table di DB)
+php artisan key:generate 
+
+kalo udah di run
+- nyalain XAMPP
+- php artisan serve (kalo udah di jalanin di minimize aja)
+- npm run dev (di terminal baru, kalo udah jalan, minimize aja)
